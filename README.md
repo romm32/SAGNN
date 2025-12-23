@@ -1,5 +1,5 @@
 # Wireless Link Scheduling with State-Augmented Graph Neural Networks
-This is the repository for the paper of the same name. More information about references or citations will be added soon.
+This is the repository for the paper of the same name. 
 
 ### Installation
 You can clone the repository as is usually done:
@@ -16,3 +16,16 @@ file to generate a dataset. After this, you can run the main file inside the con
 _python main.py_
 
 You can also specify training/evaluation parameters as arguments.
+
+Please cite the paper if you use the code:
+
+````bibtex
+@misc{camargo2025wirelesslinkschedulingstateaugmented,
+  title={Wireless Link Scheduling with State-Augmented Graph Neural Networks},
+  author={Garcia Camargo, Romina and Wang, Zhiyang and NaderiAlizadeh, Navid and Ribeiro, Alejandro},
+  year={2025},
+  eprint={2505.07598},
+  archivePrefix={arXiv},
+  primaryClass={eess.SP},
+  url={https://arxiv.org/abs/2505.07598}
+}
