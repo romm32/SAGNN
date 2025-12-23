@@ -69,7 +69,7 @@ def create_conflict_dataset(num_samples,
         print('orig edges', len(edges))
         G = nx.Graph()
         G.add_edges_from(edges)
-        conflict_data_i, A_i, K_i, len_edges_i, degrees_i = create_conflict_graph(graph=G, target_dual_degree=target_dual_degree)
+        conflict_data_i, A_i, K_i, len_edges_i, degrees_i = create_conflict_graph(graph=G)
         print("K", K_i)
         if target_K is None or abs(K_i - target_K) <= 50:
             print("D", np.mean(degrees_i.float().numpy()))

@@ -187,14 +187,12 @@ def sawl(num_epochs, batch_size, lr_lambda, lr_phi, weight_decay, delta, batch_n
                 
                 if epoch%lambda_granularity == 0 or epoch==num_epochs-1:
                     results[phase, 'lambda'].append(dual_variable.detach().cpu().numpy())
-                    plot_lambdas(epoch, delta, lr_phi, lr_lambda, dual_variable, exp_name, weight_decay)
 
                 if weight_decay != 0:
                     results[phase, 'constraint_with_resilience'].append(np.mean(np.array(rc)))
                 
                 if epoch%lambda_granularity == 0 or epoch==num_epochs-1:
                     results[phase, 'lambda'].append(dual_variable.detach().cpu().numpy())
-                    plot_lambdas(epoch, delta, lr_phi, lr_lambda, dual_variable, exp_name, weight_decay)
                 
         torch.save(results, './results/{}.json'.format(exp_name))
         torch.save(model.state_dict(), './models/{}.pt'.format(exp_name))
