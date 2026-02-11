@@ -1,10 +1,10 @@
 # Wireless Link Scheduling with State-Augmented Graph Neural Networks
-This is the repository for the paper of the same name. 
+This is the repository for the paper of the same name, updated to the code associated to the journal paper titled "Long-Horizon Wireless Link Scheduling with State-Augmented Graph Neural Networks".
 
 ### Installation
 You can clone the repository as is usually done:
 
-_git clone https://github.com/romm32/SAWL.git_
+_git clone https://github.com/romm32/SAGNN.git_
 
 We provide a .yml file to set up a conda environment in Ubuntu 22, with which the installation of the packages should become easier.
 
@@ -17,7 +17,7 @@ _python main.py_
 
 You can also specify training/evaluation parameters as arguments.
 
-Please cite the paper if you use the code:
+Please cite the papers if you use the code:
 
 ````bibtex
 @misc{camargo2025wirelesslinkschedulingstateaugmented,
@@ -29,3 +29,5 @@ Please cite the paper if you use the code:
   primaryClass={eess.SP},
   url={https://arxiv.org/abs/2505.07598}
 }
+
+The citation for the journal version will be added soon.
