@@ -15,7 +15,7 @@ file to generate a dataset. After this, you can run the main file inside the con
 
 _python main.py_
 
-You can also specify training/evaluation parameters as arguments.
+You can also specify training/evaluation parameters as arguments. Some datasets are not available as they hit Github's 100MB limit. You can request them via an email to _rominag@seas.upenn.edu_.
 
 Please cite the papers if you use the code:
 
