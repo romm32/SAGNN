@@ -1,5 +1,5 @@
 # Wireless Link Scheduling with State-Augmented Graph Neural Networks
-This is the repository for the paper of the same name, updated to the code associated to the journal paper titled "Long-Horizon Wireless Link Scheduling with State-Augmented Graph Neural Networks".
+This is the repository for the paper of the same name, updated to the code associated to the extended paper titled "Long-Horizon Wireless Link Scheduling with State-Augmented Graph Neural Networks".
 
 ### Installation
 You can clone the repository as is usually done:
@@ -30,4 +30,4 @@ Please cite the papers if you use the code:
   url={https://arxiv.org/abs/2505.07598}
 }
 
-The citation for the journal version will be added soon.
+The citation for the extended version will be added soon.
